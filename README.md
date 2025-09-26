@@ -19,16 +19,26 @@ Supports full **CRUD** for Authors and Posts with filtering by author & date.
 
 ```
 django_graphql_blog/
-├── blog/                # Blog app
+├── blog/
+│   ├── admin.py
+│   ├── apps.py
+│   ├── migrations/
 │   ├── models.py
-│   ├── types.py
 │   ├── mutations.py
 │   ├── schema.py
-│   └── ...
-├── blogproject/         # Main project folder
-├── db.sqlite3
+│   ├── tests.py
+│   ├── types.py
+│   └── views.py
+├── blogproject/
+│   ├── asgi.py
+│   ├── schema.py
+│   ├── settings.py
+│   ├── urls.py
+│   ├── wsgi.py
+│   └── __init__.py
 ├── manage.py
 └── README.md
+
 ```
 
 ---
